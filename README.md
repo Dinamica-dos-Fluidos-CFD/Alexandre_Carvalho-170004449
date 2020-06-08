@@ -6,4 +6,4 @@ Problema 1
 
 - Determinar se estes valores de vazão e perda de carga estão coerentes ou não, e o motivo para isto.
 - Apresentar possibilidades de problemas em caso dos valores colocados acima não estarem coerentes.
-- Usando a simulação apresentada, realizar um estudo paramétrico da viscosidade do tubo para avaliar se o cenário acima é normal ou não para esta instalação.
+- Usando a simulação apresentada, realizar um estudo paramétrico da viscosidade do fluido para avaliar se o cenário acima é normal ou não para esta instalação.
