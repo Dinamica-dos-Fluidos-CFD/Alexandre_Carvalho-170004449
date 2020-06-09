@@ -25,5 +25,10 @@ Problema 1
    As paredes internas do tubo também são prescindíveis neste caso, pois a simulação avalia tudo aquilo que não é definido como uma parede, portanto, o perfil da velocidade segue os parâmetros de Navier-Stokes.
   
    A linearidade do escoamento foi adotada pois não compromete a acurácia dos cálculos e simulações neste projeto.
+   
+<p align="center">
+ Figura 1: Modelo Tridimensional do Escoamento
+</p>
 
+![asd](https://user-images.githubusercontent.com/66135034/84211748-726e4d80-aa92-11ea-9446-c48c854b744a.png)
 
