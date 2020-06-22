@@ -12,7 +12,12 @@ Problema 1
 
 ### 1.1 Objetivos, Requisitos e Prazo: 
 	
-   O projeto realizado tem o intuito de especificar um determinado problema em uma tubulação de 40mm de diâmetro e 1000mm de comprimento. Para alcançar uma solução objetiva, será feita uma simulação por intermédio de um software de Computational Fluid    Dynamics (CFD). Será necessária, também, a parametrização das grandezas físicas atuantes no perfil estudado.
+   O projeto realizado tem o intuito de especificar um determinado problema e apontar a solução para o mesmo, em uma tubulação de 40mm de diâmetro e 1000mm de comprimento. Para alcançar uma solução objetiva, será feita uma simulação por intermédio de um software de Computational Fluid Dynamics (CFD).
+   
+   Será necessária, também, a parametrização das grandezas físicas atuantes no perfil estudado.
+   
+   Os requisitos de solução baseiam-se em utilizar as simulações feitas para determinar se os valores de vazão e perda de carga estão coerentes, relacionando-os com o estudo paramétrico da viscosidade do fluido.
+
 
    As etapas do projeto têm duração de uma semana, desde que cumpridas todas as exigências apresentadas. Podendo ser adiadas, caso hajam incongruências no decorrer da atividade.
 
@@ -28,7 +33,7 @@ Problema 1
    
 ### 1.3 Finalidade do Projeto e Metodologia:
 
-   A finalidade deste projeto é verificar a normalidade do funcionamento da seção de tubulação que foi apresentada, a partir dos parâmetros dados da instalação de bombeamento. 
+   A finalidade deste projeto é verificar a normalidade do funcionamento da seção de tubulação que foi apresentada; e estudar, a partir dos parâmetros dados da instalação de bombeamento, quais características dentre vazão, perda de carga e viscosidade apresentam-se de maneira incoerente, determinando-as.
    
    O problema apresentado pode ser determinado de diversas formas. Porém, as características apresentadas apontam que, certamente, para que se tenha uma boa visualização situacional, a metodologia de Computational Fluid Dynamics (CFD), é a mais profícua para o caso.
 
