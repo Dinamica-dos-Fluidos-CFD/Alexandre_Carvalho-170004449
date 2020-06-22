@@ -51,10 +51,12 @@ Haja vista a simplicidade da geometria apresentada, a malha utilizada para que o
 <p align="center">
  Figura 2: Secção Transversal do Modelo
 </p>
+
 ![figura 2](https://user-images.githubusercontent.com/66135034/85301101-c9eebf00-b47d-11ea-949f-cd266e63df4d.png)
 
 <p align="center">
- Figura 2: Secção Longitudinal do Modelo
+ Figura 3: Secção Longitudinal do Modelo
 </p>
+
 ![figura 3](https://user-images.githubusercontent.com/66135034/85301107-cce9af80-b47d-11ea-82cf-6145f028891f.png)
 
