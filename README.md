@@ -60,3 +60,45 @@ Haja vista a simplicidade da geometria apresentada, a malha utilizada para que o
 
 ![figura 3](https://user-images.githubusercontent.com/66135034/85301107-cce9af80-b47d-11ea-82cf-6145f028891f.png)
 
+
+# 2.Pré-Processamento
+
+### 2.1 Domínio de cálculo e Geometria:
+Para fins práticos, haja vista a laminaridade do fluxo e ausência de fatores que poderiam alterar esta condição, como geradores de vórtices e rebites, não é necessário o detalhamento das estruturas externas ao fluxo em si.
+Fato que possibilita a simplificação da geometria sem que haja uma perda significativa da acurácia do resultado final, haja vista que em regime laminar, o fator de atrito utilizado para determinar a perda de carga, por exemplo, independe da rugosidade do meio, sendo unicamente função do número de Reynolds.
+
+### 2.2 Tipo de malha e Método:
+A geração de malha para uma simulação é importante para que se tenha um cálculo tanto preciso no que está sendo estudado, quanto viável de ser feito em um computador convencional, para esta circunstância. Portanto, uma malha hexaédrica simples e estruturada é suficiente para atender os requisitos de precisão e viabilidade.
+Quanto ao método, por não haver quaisquer geometrias complexas, propriedades materiais distintas, ou esforços estruturais essenciais para o cálculo, o Método dos Volumes Finitos pode ser utilizado, pois fará os procedimentos numéricos baseados na energia, massa e quantidade de movimento em cada volume determinado.
+
+<p align="center">
+ Figura 4: Malha Hexaédrica Gerada Automaticamente
+</p>
+
+![Malha](https://user-images.githubusercontent.com/66135034/85929002-9bab1e00-b887-11ea-8bc3-b1d919fe1db9.png)
+
+### 2.3 Inputs:
+Dados a vazão volumétrica e área do fluxo, é possível obter a velocidade do mesmo, de 0,07962 m/s, como apontado pela Imagem a seguir:
+ 
+![Velocity](https://user-images.githubusercontent.com/66135034/85929003-9c43b480-b887-11ea-82ad-7cb102a76e7b.png)
+
+No domínio padrão, o fluxo foi caracterizado como laminar, desconsiderando transferências de calor, combustão, e radiação térmica:
+
+![domain](https://user-images.githubusercontent.com/66135034/85929006-9c43b480-b887-11ea-9580-da58734fe9ab.png)
+
+Como inferido pelo problema, o fluido trabalhado pela estação de bombeamento é Água, e a pressão de referência adotada foi de 1 atm.
+
+![Fluid](https://user-images.githubusercontent.com/66135034/85929007-9cdc4b00-b887-11ea-9fe4-f360de701ef4.png)
+ 
+Foram caracterizadas, também, as superfícies do fluxo, sendo denominadas de Intake, Outlet e Wall.
+ 
+![Vector](https://user-images.githubusercontent.com/66135034/85929001-9a79f100-b887-11ea-953b-e570fd5916ea.png)
+
+### 2.4 Prazo e Capacidade Computacional:
+Tendo em mente o prazo estipulado anteriormente, de uma semana por etapa, o processamento será feito o quanto antes, para que possam ser avaliados quaisquer desvios nos resultados.
+O computador que fará o processamento da simulação conta com:
+
+Processador: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz 1.99 GHz.<br />
+RAM instalada: 16,0 GB.<br />
+Sistema operacional de 64 bits.<br />
+Windows 10.<br />
