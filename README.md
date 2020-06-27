@@ -86,7 +86,7 @@ No domínio padrão, o fluxo foi caracterizado como laminar, desconsiderando tra
 
 ![domain](https://user-images.githubusercontent.com/66135034/85929006-9c43b480-b887-11ea-9580-da58734fe9ab.png)
 
-Como inferido pelo problema, o fluido trabalhado pela estação de bombeamento é Água, e a pressão de referência adotada foi de 1 atm.
+Como inferido pelo problema, o fluido trabalhado pela estação de bombeamento é água, e a pressão de referência adotada foi de 1 atm.
 
 ![Fluid](https://user-images.githubusercontent.com/66135034/85929007-9cdc4b00-b887-11ea-9fe4-f360de701ef4.png)
  
