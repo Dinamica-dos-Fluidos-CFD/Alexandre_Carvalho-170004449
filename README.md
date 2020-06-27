@@ -10,18 +10,19 @@ Problema 1
 
 # 1.Modelagem
 
-### 1.1 Objetivos, Requisitos e Prazo: 
+### 1.1 Objetivos e Prazo: 
 	
-   O projeto realizado tem o intuito de especificar um determinado problema e apontar a solução para o mesmo, em uma tubulação de 40mm de diâmetro e 1000mm de comprimento. Para alcançar uma solução objetiva, será feita uma simulação por intermédio de um software de Computational Fluid Dynamics (CFD).
+   O projeto realizado tem o intuito de estudar uma situação específica em uma estação de bombeamento de água, por meio de simulações, realizadas de maneira metódica, em uma tubulação de 40mm de diâmetro e 1000mm de comprimento. Para alcançar uma solução objetiva, será feita uma simulação por intermédio de um software de Computational Fluid Dynamics (CFD).
    
-   Será necessária, também, a parametrização das grandezas físicas atuantes no perfil estudado.
+   Após feita a parametrização das grandezas físicas, juntamente com as simulações computacionais, será possível apontar se existem incoerências na vazão e na perda de carga, e qual é a relevância destas características para a tubulação em si; e por meio de um estudo paramétrico da viscosidade do fluido, avaliar a normalidade do cenário suposto.
    
-   Os requisitos de solução baseiam-se em utilizar as simulações feitas para determinar se os valores de vazão e perda de carga estão coerentes, relacionando-os com o estudo paramétrico da viscosidade do fluido.
-
-
    As etapas do projeto têm duração de uma semana, desde que cumpridas todas as exigências apresentadas. Podendo ser adiadas, caso hajam incongruências no decorrer da atividade.
+   
+### 1.2 Requisitos:
 
-### 1.2 Hipóteses de Simplificação:
+   Para que tal análise seja possível, as simulações feitas deverão retornar a vazão, que poderá ser utilizada para encontrar a velocidade média do fluxo, haja vista a invariabilidade do diâmetro ao longo do tubo; deverá, também, apontar a variação de pressão, para que seja possível relacioná-la com a perda de carga e, por fim, dados relacionados à viscosidade do fluxo para a avaliação do cenário.
+
+### 1.3 Hipóteses de Simplificação:
 
    Para efeitos práticos, é importante definir quais parâmetros podem ou devem ser simplificados, tanto para simplificar o processo computacional da simulação, quanto para diminuir o número de erros provenientes das simulações.
 
@@ -31,13 +32,13 @@ Problema 1
   
    A linearidade do escoamento foi adotada pois não compromete a acurácia dos cálculos e simulações neste projeto.
    
-### 1.3 Finalidade do Projeto e Metodologia:
+### 1.4 Finalidade do Projeto e Metodologia:
 
    A finalidade deste projeto é verificar a normalidade do funcionamento da seção de tubulação que foi apresentada; e estudar, a partir dos parâmetros dados da instalação de bombeamento, quais características dentre vazão, perda de carga e viscosidade apresentam-se de maneira incoerente, determinando-as.
    
    O problema apresentado pode ser determinado de diversas formas. Porém, as características apresentadas apontam que, certamente, para que se tenha uma boa visualização situacional, a metodologia de Computational Fluid Dynamics (CFD), é a mais profícua para o caso.
 
-### 1.4 Precisão Requisitada:
+### 1.5 Precisão Requisitada:
 
 Haja vista a simplicidade da geometria apresentada, a malha utilizada para que o software resolva os equacionamentos físicos envolvidos na simulação, não carece de grandes refinamentos. Consequentemente, os resultados numéricos finais apresentados, não requerem disposição além da quarta casa decimal.
 
