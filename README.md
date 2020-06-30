@@ -26,17 +26,19 @@ Problema 1
 
    Para efeitos práticos, é importante definir quais parâmetros podem ou devem ser simplificados, tanto para simplificar o processo computacional da simulação, quanto para diminuir o número de erros provenientes das simulações.
 
-   Estruturas externas ao fluxo devem ser desconsideradas, por serem indiferentes para o cálculo do mesmo. 
+   Estruturas externas ao fluxo devem ser desconsideradas, por serem indiferentes para o cálculo do mesmo.
   
-   As paredes internas do tubo também são prescindíveis neste caso, pois a simulação avalia tudo aquilo que não é definido como uma parede, portanto, o perfil da velocidade segue os parâmetros de Navier-Stokes.
+   As paredes internas do tubo também são prescindíveis neste caso, pois a simulação avalia tudo aquilo que não é definido, como uma parede. Portanto, o perfil da velocidade segue os parâmetros de Navier-Stokes.
   
-   A linearidade do escoamento foi adotada pois não compromete a acurácia dos cálculos e simulações neste projeto.
+   A laminaridade do escoamento foi adotada pois não compromete a acurácia dos cálculos e simulações neste projeto.
+   
+   Haja vista a adoção de um escoamento laminar, a rugosidade material da tubulação torna-se despezível para o cálculo do fator de atrito.
    
 ### 1.4 Finalidade do Projeto e Metodologia:
 
-   A finalidade deste projeto é verificar a normalidade do funcionamento da seção de tubulação que foi apresentada; e estudar, a partir dos parâmetros dados da instalação de bombeamento, quais características dentre vazão, perda de carga e viscosidade apresentam-se de maneira incoerente, determinando-as.
+   A finalidade deste projeto é desenvolver e aprimorar os conhecimentos práticos, de maneira acadêmica, na área de simulações computacionais de dinâmica dos flúidos, por meio de um projeto simples que introduz, principalmente, as ferramentas, boas práticas e hábitos adotados por um engenheiro quando realizando trabalhos dessa espécie. 
    
-   O problema apresentado pode ser determinado de diversas formas. Porém, as características apresentadas apontam que, certamente, para que se tenha uma boa visualização situacional, a metodologia de Computational Fluid Dynamics (CFD), é a mais profícua para o caso.
+   O problema apresentado pode ser acertado de diversas formas. Porém, as características apresentadas apontam que, certamente, para que se tenha uma boa visualização situacional, a metodologia de Computational Fluid Dynamics (CFD), é a mais profícua para o caso.
 
 ### 1.5 Precisão Requisitada:
 
