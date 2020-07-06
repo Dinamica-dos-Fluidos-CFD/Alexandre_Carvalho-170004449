@@ -12,10 +12,10 @@ Problema 1
 
 ### 1.1 Objetivos e Prazo: 
 	
-   O projeto realizado tem o intuito de estudar uma situação específica em uma estação de bombeamento de água, por meio de simulações, realizadas de maneira metódica, em uma tubulação de 40mm de diâmetro e 1000mm de comprimento. Para alcançar uma solução objetiva, será feita uma simulação por intermédio de um software de Computational Fluid Dynamics (CFD).
+   O projeto realizado tem o intuito de estudar um fluxo de água em uma estação de bombeamento, por meio de simulações, realizadas de maneira metódica, em uma tubulação de 40mm de diâmetro e 1000mm de comprimento. Para alcançar uma solução objetiva, será feita uma simulação por intermédio de um software de Computational Fluid Dynamics (CFD).
    
-   Após feita a parametrização das grandezas físicas, juntamente com as simulações computacionais, será possível apontar se existem incoerências na vazão e na perda de carga, e qual é a relevância destas características para a tubulação em si; e por meio de um estudo paramétrico da viscosidade do fluido, avaliar a normalidade do cenário suposto.
-   
+  A partir dos resultados provenientes da simulação e dos dados teóricos, será possível realizar uma comparação entre os dados fornecidos e encontrados, para encontrar possíveis incongruências, que serão posteriormente analisadas com o estudo paramétrico da viscosidade do fluido.
+  
    As etapas do projeto têm duração de uma semana, desde que cumpridas todas as exigências apresentadas. Podendo ser adiadas, caso hajam incongruências no decorrer da atividade.
    
 ### 1.2 Requisitos:
@@ -37,6 +37,8 @@ Problema 1
 ### 1.4 Finalidade do Projeto e Metodologia:
 
    A finalidade deste projeto é desenvolver e aprimorar os conhecimentos práticos, de maneira acadêmica, na área de simulações computacionais de dinâmica dos flúidos, por meio de um projeto simples que introduz, principalmente, as ferramentas, boas práticas e hábitos adotados por um engenheiro quando realizando trabalhos dessa espécie. 
+   
+   Após feita a parametrização das grandezas físicas, juntamente com as simulações computacionais, será possível apontar se existem incoerências na vazão e na perda de carga, e qual é a relevância destas características para a tubulação em si; e por meio de um estudo paramétrico da viscosidade do fluido, avaliar a normalidade do cenário suposto.
    
    O problema apresentado pode ser acertado de diversas formas. Porém, as características apresentadas apontam que, certamente, para que se tenha uma boa visualização situacional, a metodologia de Computational Fluid Dynamics (CFD), é a mais profícua para o caso.
 
