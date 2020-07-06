@@ -12,7 +12,7 @@ Problema 1
 
 ### 1.1 Objetivos e Prazo: 
 	
-   O projeto realizado tem o intuito de estudar um fluxo de água em uma estação de bombeamento, por meio de simulações, realizadas de maneira metódica, em uma tubulação de 40mm de diâmetro e 1000mm de comprimento. Para alcançar uma solução objetiva, será feita uma simulação por intermédio de um software de Computational Fluid Dynamics (CFD).
+   O projeto realizado tem o intuito de estudar um fluxo de água de 0,0001 metro cúbico por segundo em uma estação de bombeamento, cuja perda de carga foi mensurada com uma queda de pressão de 2Pa, em uma tubulação de 40mm de diâmetro e 1000mm de comprimento. Para alcançar uma solução objetiva, será feita uma simulação por intermédio de um software de Computational Fluid Dynamics (CFD).
    
   A partir dos resultados provenientes da simulação e dos dados teóricos, será possível realizar uma comparação entre os dados fornecidos e encontrados, para encontrar possíveis incongruências, que serão posteriormente analisadas com o estudo paramétrico da viscosidade do fluido.
   
