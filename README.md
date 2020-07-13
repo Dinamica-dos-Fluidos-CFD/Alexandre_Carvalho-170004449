@@ -12,8 +12,10 @@ Problema 1
 
 ### 1.1 Objetivos e Prazo: 
 	
-   O projeto realizado tem o intuito de estudar um fluxo de água de 0,0001 metro cúbico por segundo em uma estação de bombeamento, cuja perda de carga foi mensurada com uma queda de pressão de 2Pa, em uma tubulação de 40mm de diâmetro e 1000mm de comprimento. Para alcançar uma solução objetiva, será feita uma simulação por intermédio de um software de Computational Fluid Dynamics (CFD).
+   O projeto realizado tem o intuito de estudar um escoamento de água no interior de uma tubulação em uma estação de bombeamento, para que seja possível determinar a coerência dos dados de vazão, perda de carga e viscosidade apontados; apontando possíveis soluções para corrigir a divergência nos valores.
    
+   O escoamento ocorre no interior de uma tubulação de 1 metro de comprimento e 40mm de diâmetro contendo água, cuja vazão é de 0,0001 metro cúbico por segundo, e perda de carga medida segundo uma queda de pressão de 2 Pa.
+ 
   A partir dos resultados provenientes da simulação e dos dados teóricos, será possível realizar uma comparação entre os dados fornecidos e encontrados, para encontrar possíveis incongruências, que serão posteriormente analisadas com o estudo paramétrico da viscosidade do fluido.
   
    As etapas do projeto têm duração de uma semana, desde que cumpridas todas as exigências apresentadas. Podendo ser adiadas, caso hajam incongruências no decorrer da atividade.
@@ -21,6 +23,8 @@ Problema 1
 ### 1.2 Requisitos:
 
    Para que tal análise seja possível, as simulações feitas deverão retornar a vazão, que poderá ser utilizada para encontrar a velocidade média do fluxo, haja vista a invariabilidade do diâmetro ao longo do tubo; deverá, também, apontar a variação de pressão, para que seja possível relacioná-la com a perda de carga e, por fim, dados relacionados à viscosidade do fluxo para a avaliação do cenário.
+   
+   Para alcançar uma solução objetiva, será feita uma simulação por intermédio de um software de Computational Fluid Dynamics (CFD).
 
 ### 1.3 Hipóteses de Simplificação:
 
