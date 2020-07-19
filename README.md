@@ -75,6 +75,7 @@ Haja vista a simplicidade da geometria apresentada, a malha utilizada para que o
 ### 2.1 Domínio de cálculo e Geometria:
 Para fins práticos, haja vista a laminaridade do fluxo e ausência de fatores que poderiam alterar esta condição, como geradores de vórtices e rebites, não é necessário o detalhamento das estruturas externas ao fluxo em si.
 Fato que possibilita a simplificação da geometria sem que haja uma perda significativa da precisão do resultado final, haja vista que em regime laminar, o fator de atrito utilizado para determinar a perda de carga, por exemplo, independe da rugosidade do meio, sendo unicamente função do número de Reynolds.
+Portanto, o domínio de cálculo adotado pode ser simplificado.
 
 ### 2.2 Características da malha e Método:
 A geração de malha para uma simulação é importante para que se tenha um cálculo tanto preciso no que está sendo estudado, quanto viável de ser feito em um computador convencional, para esta circunstância. Portanto, uma malha hexaédrica simples e estruturada é suficiente para atender os requisitos de precisão e viabilidade.
@@ -108,6 +109,11 @@ Como inferido pelo problema, o fluido trabalhado pela estação de bombeamento �
 Foram caracterizadas, também, as superfícies da malha do escoamento, sendo denominadas de Intake, Outlet e Wall; significando "entrada", "saída" e "parede", respectivamente.
  
 ![Vector](https://user-images.githubusercontent.com/66135034/85929001-9a79f100-b887-11ea-953b-e570fd5916ea.png)
+
+Para finalizar o Pré-processamento, a aba Solver Control aponta as características de solução simulacional.
+As caracteristicas determinadas foram controle e critérios de convergência, controle da escala de tempo do fluido, dentre outros:
+Mínimo e Máximo de Iterações de 1 e 100, respectivamente.
+Timescale Factor de 1.
 
 ### 2.5 Prazo e Capacidade Computacional:
 Tendo em mente o prazo estipulado anteriormente, de uma semana por etapa, o processamento será feito o quanto antes, para que possam ser avaliados quaisquer desvios nos resultados.
