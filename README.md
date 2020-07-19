@@ -112,7 +112,9 @@ Foram caracterizadas, também, as superfícies da malha do escoamento, sendo den
 
 Para finalizar o Pré-processamento, a aba Solver Control aponta as características de solução simulacional.
 As caracteristicas determinadas foram controle e critérios de convergência, controle da escala de tempo do fluido, dentre outros:
+
 Mínimo e Máximo de Iterações de 1 e 100, respectivamente.
+
 Timescale Factor de 1.
 
 ### 2.5 Prazo e Capacidade Computacional:
