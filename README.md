@@ -76,7 +76,7 @@ Haja vista a simplicidade da geometria apresentada, a malha utilizada para que o
 Para fins práticos, haja vista a laminaridade do fluxo e ausência de fatores que poderiam alterar esta condição, como geradores de vórtices e rebites, não é necessário o detalhamento das estruturas externas ao fluxo em si.
 Fato que possibilita a simplificação da geometria sem que haja uma perda significativa da acurácia do resultado final, haja vista que em regime laminar, o fator de atrito utilizado para determinar a perda de carga, por exemplo, independe da rugosidade do meio, sendo unicamente função do número de Reynolds.
 
-### 2.2 Tipo de malha e Método:
+### 2.2 Características da malha e Método:
 A geração de malha para uma simulação é importante para que se tenha um cálculo tanto preciso no que está sendo estudado, quanto viável de ser feito em um computador convencional, para esta circunstância. Portanto, uma malha hexaédrica simples e estruturada é suficiente para atender os requisitos de precisão e viabilidade.
 Quanto ao método, por não haver quaisquer geometrias complexas, propriedades materiais distintas, ou esforços estruturais essenciais para o cálculo, o Método dos Volumes Finitos pode ser utilizado, pois fará os procedimentos numéricos baseados na energia, massa e quantidade de movimento em cada volume determinado.
 
