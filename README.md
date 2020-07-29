@@ -192,7 +192,9 @@ Para o estudo paramétrico da viscosidade, foram determinadas três temperaturas
 Viscosidades:
 
 Água a 0°C --- 0.0018 Pa * s 
+
 Água a 25°C --- 0.000889 Pa * s  
+
 Água a 140°C --- 0.0002 Pa * s
 
 A teoria aponta que fluidos mais viscosos sofrem maior perda de carga, e que a temperatura é inversamente proporcional à viscosidade do fluido (fluidos mais quentes tornam-se menos viscosos e vice-versa), fato que é facilmente demonstrado pelos resultados das simulações:
@@ -226,6 +228,8 @@ Já a perda de carga do escoamento para água a 140°C, foi de aproximadamente 0
 As simulações apontam que houve, de fato, uma alteração na perda de carga do escoamento, dada pelas diferentes viscosidades simuladas. 
  
 # 4. Conclusão:
+
 O intuito do projeto, de relacionar conhecimento teórico e técnicas de CFD, é muito interessante para a introdução dos alunos no mercado atual de trabalho. É imprescindível que exista harmonia entre a teoria, conhecimentos físicos, e resultados obtidos por meio das simulações; para que seja possível analisar a validade das simulações e, com isso, usufruir das facilidades práticas que elas possibilitam. 
+
 O projeto realizado por meio do Ansys possibilitou não só a realização dos complexos cálculos que regem os fluidos, como também uma boa visualização geral do cenário apresentado, apontando diversos dados quantitativos e qualitativos que tornaram possível a avaliação do problema estudado.
 
