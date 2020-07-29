@@ -50,24 +50,24 @@ Problema 1
 
 Haja vista a simplicidade da geometria apresentada, a malha utilizada para que o software resolva os equacionamentos físicos envolvidos na simulação, não carece de grandes refinamentos. Consequentemente, os resultados numéricos finais apresentados, não requerem disposição além da quarta casa decimal.
 
-
+![asd](https://user-images.githubusercontent.com/66135034/84211748-726e4d80-aa92-11ea-9446-c48c854b744a.png)
 <p align="center">
  Figura 1: Modelo Tridimensional do Escoamento
 </p>
 
-![asd](https://user-images.githubusercontent.com/66135034/84211748-726e4d80-aa92-11ea-9446-c48c854b744a.png)
 
+
+![figura 2](https://user-images.githubusercontent.com/66135034/85301101-c9eebf00-b47d-11ea-949f-cd266e63df4d.png)
 <p align="center">
  Figura 2: Secção Transversal do Modelo
 </p>
 
-![figura 2](https://user-images.githubusercontent.com/66135034/85301101-c9eebf00-b47d-11ea-949f-cd266e63df4d.png)
 
+
+![figura 3](https://user-images.githubusercontent.com/66135034/85301107-cce9af80-b47d-11ea-82cf-6145f028891f.png)
 <p align="center">
  Figura 3: Secção Longitudinal do Modelo
 </p>
-
-![figura 3](https://user-images.githubusercontent.com/66135034/85301107-cce9af80-b47d-11ea-82cf-6145f028891f.png)
 
 
 # 2.Pré-Processamento
@@ -82,11 +82,11 @@ A geração de malha para uma simulação é importante para que se tenha um cá
 Quanto ao método, por não haver quaisquer geometrias complexas, propriedades materiais distintas, ou esforços estruturais essenciais para o cálculo, o Método dos Volumes Finitos
 será utilizado, pois fará os procedimentos numéricos baseados na energia, massa e quantidade de movimento em cada volume determinado.
 
+
+![Malha](https://user-images.githubusercontent.com/66135034/85929002-9bab1e00-b887-11ea-8bc3-b1d919fe1db9.png)
 <p align="center">
  Figura 4: Malha Hexaédrica Gerada Automaticamente
 </p>
-
-![Malha](https://user-images.githubusercontent.com/66135034/85929002-9bab1e00-b887-11ea-8bc3-b1d919fe1db9.png)
 
 ### 2.3 Inputs:
 Dados a vazão volumétrica e área do escoamento, é possível obter a velocidade do mesmo, de 0,07962 m/s, como apontado pela Imagem a seguir:
