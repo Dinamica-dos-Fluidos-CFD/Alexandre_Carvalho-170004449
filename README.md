@@ -130,58 +130,102 @@ Windows 10.<br />
 
 ### 3.1 Histórico de convergência e tempo de processamento:
 
- 
-Gráfico 1: Histórico de convergência.
+
+![Histórico de Convergência](https://user-images.githubusercontent.com/66135034/88740761-6149d080-d114-11ea-82bc-12b475a02785.png)
+<p align="center">
+ Gráfico 1: Histórico de convergência.
+</p>
+
 
 O histórico de convergência aponta que as características de conservação de massa e momento estão coerentes com suas realidades físicas. Portanto, os cálculos estão adequados.
 Por se tratar de uma simulação simples, com baixos níveis de complexidade, o tempo de processamento foi de apenas 3.220 segundos, como apontado abaixo:
  
+ 
+![Tempo de Operação](https://user-images.githubusercontent.com/66135034/88740763-61e26700-d114-11ea-8cb6-a68cb913c771.png)
+<p align="center">
 Figura 5: Tempo de processamento.
+</p>
 
-
-###3.2 Resíduos simulacionais:
+### 3.2 Resíduos simulacionais:
 Os resíduos da simulação não representam, para este caso, um empecilho para o recolhimento de dados precisos, haja vista a utilização de uma malha hexaédrica suficientemente refinada, e a simplicidade da situação.
 
-###3.3 Resultados Qualitativos e Quantitativos:
+### 3.3 Resultados Qualitativos e Quantitativos:
 Foi possível obter diversos resultados qualitativos derivados desta simulação, como a velocidade do escoamento e seu perfil, variação da pressão ao longo do tubo, entre outros:
- Figura X: Velocidade do escoamento.
+ 
+ 
+![Flow Velocity](https://user-images.githubusercontent.com/66135034/88740764-627afd80-d114-11ea-8096-05b537fac613.png)
+<p align="center">
+Figura 6: Velocidade do escoamento.
+</p>
 
 É possível analisar o arrasto gerado pela superfície do tubo, freando o fluido que por ele escoa, nas camadas mais próximas às paredes internas.
  
+ 
+![Velocity Profile](https://user-images.githubusercontent.com/66135034/88740765-627afd80-d114-11ea-9deb-6e5fdf4874b8.png)
+<p align="center">
 Gráfico 2: Perfil da velocidade do escoamento.
+</p>
+
 Este gráfico demonstra o que seria uma secção longitudinal do escoamento, é possível notar que este escoamento está conforme as descrições de Navier-Stokes.
 Entretanto nota-se, também, que o perfil da velocidade se assemelha mais ao seu estado em desenvolvimento do que com o estado totalmente desenvolvido, geralmente representado por uma parábola.
- 
-Figura 6: Variação da pressão ao longo do escoamento.
+
+
+![Pressure (1)](https://user-images.githubusercontent.com/66135034/88740767-63139400-d114-11ea-80dd-16eefd87b423.png)
+<p align="center">
+Figura 7: Variação da pressão ao longo do escoamento.
+</p>
+
 
 Também classificado como dado qualitativo, a figura mostra a variação na pressão que o escoamento sofreu devido à perda de carga.
 Os gráficos relativos à perda de carga estão localizados no estudo paramétrico da viscosidade.
+
 Todos os resultados simulados concordam, mesmo que com alguns resíduos, com a realidade física do escoamento.
 
-###3.4 Estudo Paramétrico da Viscosidade
+
+### 3.4 Estudo Paramétrico da Viscosidade
+
 A viscosidade, ou atrito intermolecular do fluido, influencia na perda de carga de um sistema, portanto, fluidos com viscosidades distintas causam perdas de carga diferentes, tanto pelas características do fluido em si, como por outros fatores influenciadores, como a temperatura. 
+
 Para o estudo paramétrico da viscosidade, foram determinadas três temperaturas hipotéticas diferentes para o fluido do escoamento, e suas respectivas viscosidades, como demonstrado abaixo:
 
+
 Viscosidades:
+
 Água a 0°C --- 0.0018 Pa * s 
 Água a 25°C --- 0.000889 Pa * s  
 Água a 140°C --- 0.0002 Pa * s
 
 A teoria aponta que fluidos mais viscosos sofrem maior perda de carga, e que a temperatura é inversamente proporcional à viscosidade do fluido (fluidos mais quentes tornam-se menos viscosos e vice-versa), fato que é facilmente demonstrado pelos resultados das simulações:
 
- 
+
+![Perda de Carga viscosidade a 0 0018 Pa s](https://user-images.githubusercontent.com/66135034/88740862-8f2f1500-d114-11ea-83b0-0141447e555a.png)
+<p align="center">
 Gráfico 3: Perda de carga no escoamento para água a 0°C.
+</p>
 
 A perda de carga do escoamento para água a 0°C, com viscosidade de 0.0018 Pa * s, foi de aproximadamente 3,8 Pa.
  
+ 
+ 
+![Perda de Carga viscosidade a 0 0008899 Pa s](https://user-images.githubusercontent.com/66135034/88740865-90604200-d114-11ea-87cb-2b8c4389158a.png)
+<p align="center">
 Gráfico 4: Perda de carga no escoamento para água a 25°C.
+</p>
+
 
 A perda de carga do escoamento para água sob condições ambientais de temperatura (25°C), foi de aproximadamente 2 Pa.
+
+
+
+![Perda de Carga viscosidade a 0 0002 Pa s](https://user-images.githubusercontent.com/66135034/88740866-90604200-d114-11ea-8b81-e21f6b178e47.png)
+<p align="center">
  Gráfico 5: Perda de carga no escoamento para água a 140°C.
+ </p>
+ 
 Já a perda de carga do escoamento para água a 140°C, foi de aproximadamente 0.44 Pa.
 As simulações apontam que houve, de fato, uma alteração na perda de carga do escoamento, dada pelas diferentes viscosidades simuladas. 
  
-#4. Conclusão:
+# 4. Conclusão:
 O intuito do projeto, de relacionar conhecimento teórico e técnicas de CFD, é muito interessante para a introdução dos alunos no mercado atual de trabalho. É imprescindível que exista harmonia entre a teoria, conhecimentos físicos, e resultados obtidos por meio das simulações; para que seja possível analisar a validade das simulações e, com isso, usufruir das facilidades práticas que elas possibilitam. 
 O projeto realizado por meio do Ansys possibilitou não só a realização dos complexos cálculos que regem os fluidos, como também uma boa visualização geral do cenário apresentado, apontando diversos dados quantitativos e qualitativos que tornaram possível a avaliação do problema estudado.
 
