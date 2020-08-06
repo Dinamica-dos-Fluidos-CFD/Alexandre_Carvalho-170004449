@@ -225,6 +225,9 @@ A perda de carga do escoamento para água sob condições ambientais de temperat
  </p>
  
 Já a perda de carga do escoamento para água a 140°C, foi de aproximadamente 0.44 Pa.
+
+Como dito anteriormente, o fator de atrito de um escoamento laminar depende unicamente do número de Reynolds que, por sua vez, é função da viscosidade do flúido, sendo inversamente proporcional ao mesmo.
+
 As simulações apontam que houve, de fato, uma alteração na perda de carga do escoamento, dada pelas diferentes viscosidades simuladas. 
  
 # 4. Conclusão:
