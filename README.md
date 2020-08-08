@@ -153,7 +153,10 @@ Os resíduos da simulação não representam, para este caso, um empecilho para 
 Foi possível obter diversos resultados qualitativos derivados desta simulação, como a velocidade do escoamento e seu perfil, variação da pressão ao longo do tubo, entre outros:
  
  
-![Flow Velocity](https://user-images.githubusercontent.com/66135034/88740764-627afd80-d114-11ea-8096-05b537fac613.png)
+ Legenda Velocidade        |  Velocidade do escoamento
+:-------------------------:|:-------------------------:
+![Legenda Velocidade](https://user-images.githubusercontent.com/66135034/89720028-907a0080-d9a4-11ea-9c20-684ff6a0af97.png)  |  ![velocity](https://user-images.githubusercontent.com/66135034/89720029-91129700-d9a4-11ea-8236-a8a20f6b2c8f.png)
+
 <p align="center">
 Figura 6: Velocidade do escoamento.
 </p>
@@ -170,7 +173,9 @@ Este gráfico demonstra o que seria uma secção longitudinal do escoamento, é 
 Entretanto nota-se, também, que o perfil da velocidade se assemelha mais ao seu estado em desenvolvimento do que com o estado totalmente desenvolvido, geralmente representado por uma parábola.
 
 
-![Pressure (1)](https://user-images.githubusercontent.com/66135034/88740767-63139400-d114-11ea-80dd-16eefd87b423.png)
+ Legenda Pressão           |  Variação da pressão
+:-------------------------:|:-------------------------:
+![Legenda Pressão ](https://user-images.githubusercontent.com/66135034/89720025-8c4de300-d9a4-11ea-8993-47c7d934a5d8.png)  |  ![pressure](https://user-images.githubusercontent.com/66135034/89720026-8d7f1000-d9a4-11ea-9321-a6ceca08b531.png)
 <p align="center">
 Figura 7: Variação da pressão ao longo do escoamento.
 </p>
