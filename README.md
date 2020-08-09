@@ -256,7 +256,31 @@ As simulações apontam que houve, de fato, uma alteração na perda de carga do
  
 # 4. Conclusão:
 
-O intuito do projeto, de relacionar conhecimento teórico e técnicas de CFD, é muito interessante para a introdução dos alunos no mercado atual de trabalho. É imprescindível que exista harmonia entre a teoria, conhecimentos físicos, e resultados obtidos por meio das simulações; para que seja possível analisar a validade das simulações e, com isso, usufruir das facilidades práticas que elas possibilitam. 
+| Perda de Carga| Valor (Pa)   |
+| ------------- | ------------- |
+| Fornecida     |      2 Pa     |
+| Calculada 1   |  1,611 Pa     |
+| Calculada 2   |  3,30  Pa     |
+| Simulada 1    |  1,97  Pa     |(25°C)
+| Simulada 2    |  3,80  Pa     |(0°C)
+| Simulada 3    |  0,44  Pa     |(140°C)
 
-O projeto realizado por meio do Ansys possibilitou não só a realização dos complexos cálculos que regem os fluidos, como também uma boa visualização geral do cenário apresentado, apontando diversos dados quantitativos e qualitativos que tornaram possível a avaliação do problema estudado.
+Segundo os dados obtidos, existem algumas divergências mesmo quando levando em conta somente as condições ambientais de temperatura (25°C); a tabela mostra que os resultados calculados para perda de carga a 25°C variam em até 1,6 Pa.
 
+Se todas as variáveis forem iguais, não existe motivo para que o cálculo tenha tal divergência, portanto, este fato aponta que podem haver variáveis que não foram levadas em consideração, e que poderiam até ser a causa do problema em si.
+
+| Numero de Reynolds| Valor (adimensional)|
+| ------------- | ------------- |
+| Suposto       |Laminar(<2.000)|
+| Calculado     |Transição(>3.300)|
+
+A partir destes dados, pode-se entender que o fluxo está em escoamento de transição, não sendo totalmente laminar, como previamente estipulado.
+
+Isto explica a grande diferença entre as duas perdas de carga calculadas, haja vista que a primeira foi calculada com uma equação própria para regimes laminares, e a segunda, levando em conta a real situação do regime de escoamento. 
+
+Um regime erroneamente adotado em uma simulação pode encobrir problemas pertinentes para um sistema como, neste caso específico:
+- Presença de fluidos de diferentes viscosidades no escoamento, que poderiam indicar um vazamento,
+- Variações na temperatura do escoamento, que causariam mudanças na densidade e viscosidade, e poderiam indicar um sobreaquecimento,
+- Presença de irregularidades nas superfícies da tubulação, que poderiam alterar o fator de atrito.
+
+Por fim, é notável que o regime de um escoamento adotado não pode ser uma simplificação rudimentar, haja vista as grandes diferenças numéricas que podem ser geradas a partir de suposições falsas.
