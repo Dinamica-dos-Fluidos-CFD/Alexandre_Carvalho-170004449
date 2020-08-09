@@ -271,8 +271,8 @@ Se todas as variáveis forem iguais, não existe motivo para que o cálculo tenh
 
 | Numero de Reynolds| Valor (adimensional)|
 | ------------- | ------------- |
-| Suposto       |Laminar(<2.000)|
-| Calculado     |Transição(>3.300)|
+| Suposto       |Laminar (<2.000)|
+| Calculado     |Transição (>3.300)|
 
 A partir destes dados, pode-se entender que o fluxo está em escoamento de transição, não sendo totalmente laminar, como previamente estipulado.
 
