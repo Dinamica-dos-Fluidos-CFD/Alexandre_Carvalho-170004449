@@ -193,14 +193,12 @@ A viscosidade, ou atrito intermolecular do fluido, influencia na perda de carga 
 
 Para o estudo paramétrico da viscosidade, foram determinadas três temperaturas hipotéticas diferentes para o fluido do escoamento, e suas respectivas viscosidades, como demonstrado abaixo:
 
+| Viscosidades  |               |
+| ------------- | ------------- |
+| Água a 0°C    | 0.0018 Pa * s |
+| Água a 25°C   | 0.000889 Pa * s|
+| Água a 140°C  | 0.0002 Pa * s |
 
-Viscosidades:
-
-Água a 0°C --- 0.0018 Pa * s 
-
-Água a 25°C --- 0.000889 Pa * s  
-
-Água a 140°C --- 0.0002 Pa * s
 
 A teoria aponta que fluidos mais viscosos sofrem maior perda de carga, e que a temperatura é inversamente proporcional à viscosidade do fluido (fluidos mais quentes tornam-se menos viscosos e vice-versa), fato que é facilmente demonstrado pelos resultados das simulações:
 
